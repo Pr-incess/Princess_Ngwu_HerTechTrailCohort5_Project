@@ -302,7 +302,11 @@ a img.aligncenter {
 /*------------------------------------------------------------------
     HEADER
 -------------------------------------------------------------------*/
-
+.navbar-brand{
+    color:black;
+    font-size:2rem;
+    font-family: 'Dancing Script', cursive;
+}
 .navbar-dark{
 	background-color: transparent;
 	transition: all 0.3s ease 0s;
