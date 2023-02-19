@@ -389,7 +389,7 @@ a img.aligncenter {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #000;
+    background-color: #d1adcc; /*changes b-ground color of the welcome to section*/
     z-index: 0;
     opacity: .6;
 }
