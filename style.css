@@ -479,12 +479,12 @@ xclip
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: #ffffff;
+   /* background-color: #ffffff;*/ /* Also responsible for the transition change to white once you scroll down. Like a sort of back-up */
 	-webkit-animation: fadeInDown 700ms;
 	animation: fadeInDown 700ms;
 	-webkit-backface-visibility: hidden;
 	border-radius: 0px;
-	background: rgba(255, 255, 255) none repeat;  /*responsible for the transition change to white once you scroll down*/
+	/*background: #242124 none repeat;  /*responsible for the transition change to white once you scroll down*/ 
 	box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);  /*output looks like some kind of border*/
 }
 
