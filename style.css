@@ -389,7 +389,7 @@ a img.aligncenter {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: #d1adcc; /*changes b-ground color of the welcome to section*/
+    background-color: #1c142b; /*changes b-ground color of the welcome to section*/
     z-index: 0;
     opacity: .6;
 }
@@ -482,8 +482,8 @@ xclip
 	animation: fadeInDown 700ms;
 	-webkit-backface-visibility: hidden;
 	border-radius: 0px;
-	background: rgba(255, 255, 255) none repeat;
-	box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);
+	background: rgba(255, 255, 255) none repeat;  /*responsible for the transition change to white once you scroll down*/
+	box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.1);  /*output looks like some kind of border*/
 }
 
 #clouds{
