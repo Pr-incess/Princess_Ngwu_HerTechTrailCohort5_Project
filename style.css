@@ -392,7 +392,7 @@ a img.aligncenter {
     left: 0;
     right: 0;
     background: linear-gradient(rgba(4, 11, 75, 0.719), rgba(4, 26, 100, 0.73)), url(./uploads/laptop\(white\ table\).jpeg) no-repeat; /*changes b-ground color of the welcome to section*/
-    background-size: cover;
+    background-size: cover; /*made the image cover the section*/
     background-color: #1f1f1f;
     z-index: 0;
     opacity: .6;
@@ -2360,7 +2360,7 @@ select.mobile-device {
 
 .copyrights {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
-    background-color:#1f1f1f;    /*changes color of HerTechTrail ending surrounding background*/
+    background-color:  #f2f2f2 ;/*#1f1f1f;    /*changes color of HerTechTrail ending surrounding background*/
     box-sizing: border-box;
     width: 100%;
     text-align: center;
