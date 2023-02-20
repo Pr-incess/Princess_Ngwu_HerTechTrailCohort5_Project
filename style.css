@@ -525,8 +525,13 @@ xclip
     padding-top: 0;
 }
 
+.last{
+    border-radius:50%;
+}
+
 .section.wb {
-    background-color: #ffffff;
+    background: linear-gradient(rgba(4, 11, 75, 0.93), rgba(43, 39, 41, 0.93)), url(./images/bg.png) no-repeat;  /*responsible for changing the color of about background*/
+background-size: cover;
 }
 
 .section.lb {
