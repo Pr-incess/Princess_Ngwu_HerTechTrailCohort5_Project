@@ -42,6 +42,7 @@ body.demos .section-title img {
     max-width: 280px;
     display: block;
     margin: 10px auto;
+    
 }
 
 body.demos .service-widget h3 {
@@ -268,7 +269,9 @@ a img.aligncenter {
     padding: 0 4px 5px;
 }
 
-
+.section-title .h3{
+    font-family: 'Dancing Script', cursive;
+}
 /* Text meant only for screen readers. */
 
 .screen-reader-text {
@@ -468,7 +471,7 @@ xclip
   right: 0;
   width: 2px;
   height: 100%;
-  background-color: #aebcb9;
+  background-color: #aebcb9;  /*the color of the cursor/pointer line */
 }
 .cd-headline.clip b {
   opacity: 0;
@@ -525,14 +528,14 @@ xclip
     padding-top: 0;
 }
 
-.last{
-    border-radius:50%;
-}
+
 
 .section.wb {
     background: linear-gradient(rgba(4, 11, 75, 0.93), rgba(43, 39, 41, 0.93)), url(./images/bg.png) no-repeat;  /*responsible for changing the color of about background*/
 background-size: cover;
 }
+
+
 
 
 .section.lb {
@@ -588,7 +591,7 @@ background-size: cover;
 }
 
 .section-title p {
-    color: #999;
+    color: #999; /* changes color of ptag text after the contact header in contact.html page*/
     font-weight: 400;
     font-size: 18px;
     line-height: 23px;
@@ -2201,7 +2204,7 @@ select.mobile-device {
     color: #bcbcbc !important;
 }
 
-.contact_form {
+.contact_form { /*border around contact container*/
     border: 1px solid #ededed;
     box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
     background-color: #f2f3f5;
@@ -2209,11 +2212,11 @@ select.mobile-device {
 }
 
 .contact_form .form-control {
-    background-color: #333333;
+    background-color: #333333; /*responsible for internal container/box that houses the text*/
     margin-bottom: 30px;
     border: 1px solid #ebebeb;
     box-sizing: border-box;
-    color: #bcbcbc;
+    color: #bcbcbc;  /*color of text when one wants to contact you*/
     font-size: 16px;
     outline: 0 none;
     padding: 10px 25px;
@@ -2231,7 +2234,7 @@ select.mobile-device {
 }
 
 .contact_form .form-control::-webkit-input-placeholder {
-    color: #bcbcbc;
+    color:#bcbcbc ;  /*color of placeholder text*/
 }
 
 .contact_form .form-control::-moz-placeholder {
@@ -2243,8 +2246,10 @@ select.mobile-device {
     color: #bcbcbc;
 }
 
-#contact {
-    background: url(images/1.jpg) no-repeat center center #ffffff;
+
+#contact {  /*  try plain img with designs, image behind contact form in contact section*/
+    background:linear-gradient(rgba(40, 11, 23, 0.74), rgba(23, 39, 51, 0.70)),url(./uploads/girl\ code\ image3-lone\ laptop.jpeg) no-repeat center center #ffffff;
+   background-size: cover;
 }
 
 .contact_form textarea.form-control{
