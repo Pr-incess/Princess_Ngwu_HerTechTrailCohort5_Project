@@ -76,7 +76,7 @@ a {
 
 h1,
 h2,
-h3,
+/*h3,*/
 h4,
 h5,
 h6 {
@@ -533,6 +533,7 @@ xclip
     background: linear-gradient(rgba(4, 11, 75, 0.93), rgba(43, 39, 41, 0.93)), url(./images/bg.png) no-repeat;  /*responsible for changing the color of about background*/
 background-size: cover;
 }
+
 
 .section.lb {
     background-color: #f2f3f5;
