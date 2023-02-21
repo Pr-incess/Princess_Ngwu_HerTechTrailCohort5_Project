@@ -800,6 +800,26 @@ background-size: cover;
 	color: #ffffff;
 }
 
+.btn8{
+    background: #333333;
+	color: #ffffff;
+	padding: 14px 20px;
+	border-radius: 100px;
+	overflow: hidden;
+    border: none;
+    outline: none;
+}
+
+.btn8:hover{
+    transition: all 0.4s;
+    background: #28a9e2;
+    color:white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+
+
 .sim-btn{
 	background: #333333;
 	color: #ffffff;
@@ -811,6 +831,9 @@ background-size: cover;
 
 .sim-btn:hover{
 	color: #ffffff;
+    
+
+
 }
 
 .hvr-bounce-to-top{
@@ -1220,6 +1243,17 @@ background-size: cover;
     font-size: 24px !important;
 }
 
+/*.myproj:hover{
+    
+        color: red;
+        cursor: pointer;
+        transition: all 0.4s;
+        mask-image: url(./Projects/1st\ challenge.png);
+
+        
+    
+}
+*/
 .small-icons.icon-wrapper h3 {
     font-size: 18px;
     padding-bottom: 5px;
