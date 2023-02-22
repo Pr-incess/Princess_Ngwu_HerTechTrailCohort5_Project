@@ -399,11 +399,11 @@ a img.aligncenter {
     bottom: 0;
     left: 0;
     right: 0;
-    background: linear-gradient(rgba(4, 11, 75, 0.719), rgba(4, 26, 100, 0.73)), url(./uploads/laptop\(white\ table\).jpeg) no-repeat; /*changes b-ground color of the welcome to section*/
+    background: /*linear-gradient(rgba(4, 11, 75, 0.719), rgba(4, 26, 100, 0.73)),*/linear-gradient(rgba(40, 11, 23, 0.74), rgba(23, 39, 51, 0.70)),  url(./uploads/girl\ code\ image3-lone\ laptop.jpeg) no-repeat; /*changes b-ground color of the welcome to section*/
     background-size: cover; /*made the image cover the section*/
     background-color: #1f1f1f;
     z-index: 0;
-    opacity: .6;
+    /*opacity: .6;*/
 }
 .heading{
 	color: #fff;
@@ -536,8 +536,10 @@ xclip
 
 
 .section.wb {
-    background: linear-gradient(rgba(40, 11, 23, 0.74), rgba(23, 39, 51, 0.70)), url(./images/bg.png) no-repeat;  /*responsible for changing the color of about background*/
-background-size: cover;
+    /*background:  linear-gradient(rgba(4, 11, 75, 0.719), rgba(4, 26, 100, 0.73)),url(./images/bg.png) no-repeat;  /*responsible for changing the color of about background*/
+    /*former was linear-gradient(rgba(40, 11, 23, 0.74), rgba(23, 39, 51, 0.70)),*/
+    /*background-size: cover; */
+    background-color: #333333;
 }
 
 .abtext{ /*styling for the texts in about page*/
@@ -880,6 +882,12 @@ background-size: cover;
 /*------------------------------------------------------------------
     PORTFOLIO
 -------------------------------------------------------------------*/
+
+.section.lb{                    /*changes portfolio background*/
+background:  linear-gradient(rgba(4, 11, 75, 0.719), rgba(4, 26, 100, 0.73)),url(./uploads/girl\ code\ image3-lone\ laptop.jpeg) no-repeat;/*linear-gradient(rgba(4, 11, 75, 0.719), rgba(4, 26, 100, 0.73))*/
+background-size: cover;  rgba(0,0,0,0.3)
+/*background-color:#1c142b;*/
+}
 
 .item-h2,
 .item-h1 {
@@ -2294,8 +2302,9 @@ select.mobile-device {
 
 
 #contact {  /*  try plain img with designs, image behind contact form in contact section*/
-    background:linear-gradient(rgba(40, 11, 23, 0.74), rgba(23, 39, 51, 0.70)),url(./uploads/girl\ code\ image3-lone\ laptop.jpeg) no-repeat center center #ffffff;
-   background-size: cover;
+    background: linear-gradient(rgba(40, 11, 23, 0.74), rgba(23, 39, 51, 0.70)),  url(./uploads/girl\ code\ image3-lone\ laptop.jpeg) no-repeat; /*alternative: linear-gradient(rgba(4, 11, 75, 0.719), rgba(4, 26, 100, 0.73)),*/ /*changes b-ground color of the welcome to section*/
+    background-size: cover; /*made the image cover the section*/
+    background-color: #1f1f1f;
 }
 
 .contact_form textarea.form-control{
