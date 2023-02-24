@@ -399,10 +399,10 @@ a img.aligncenter {
     bottom: 0;
     left: 0;
     right: 0;
-    background: /*linear-gradient(rgba(4, 11, 75, 0.719), rgba(4, 26, 100, 0.73)),*/linear-gradient(rgba(40, 11, 23, 0.74), rgba(23, 39, 51, 0.70)),  url(./uploads/girl\ code\ image3-lone\ laptop.jpeg) no-repeat; /*changes b-ground color of the welcome to section*/
+    background : linear-gradient(rgba(242,196,155, 0.719), rgba(4, 26, 100, 0.73)),
+    url(./New-img/computer-1869306__340.jpg);              /*welcome to section-background change color*/
     background-size: cover; /*made the image cover the section*/
-    background-color: #1f1f1f;
-    z-index: 0;
+    
     /*opacity: .6;*/
 }
 .heading{
@@ -538,8 +538,11 @@ xclip
 .section.wb {
     /*background:  linear-gradient(rgba(4, 11, 75, 0.719), rgba(4, 26, 100, 0.73)),url(./images/bg.png) no-repeat;  /*responsible for changing the color of about background*/
     /*former was linear-gradient(rgba(40, 11, 23, 0.74), rgba(23, 39, 51, 0.70)),*/
-    /*background-size: cover; */
-    background-color: #333333;
+    
+   
+    background:  linear-gradient(rgba(242,196,155, 0.719), rgba(4, 26, 100, 0.73)),
+    url(./New-img/office-925806__340.jpg) no-repeat;/*linear-gradient(rgba(4, 11, 75, 0.719), rgba(4, 26, 100, 0.73))*/
+    background-size: cover;
 }
 
 .abtext{ /*styling for the texts in about page*/
@@ -884,8 +887,9 @@ xclip
 -------------------------------------------------------------------*/
 
 .section.lb{                    /*changes portfolio background*/
-background:  linear-gradient(rgba(4, 11, 75, 0.719), rgba(4, 26, 100, 0.73)),url(./uploads/girl\ code\ image3-lone\ laptop.jpeg) no-repeat;/*linear-gradient(rgba(4, 11, 75, 0.719), rgba(4, 26, 100, 0.73))*/
-background-size: cover;  rgba(0,0,0,0.3)
+/*background: linear-gradient(rgba(242,196,155, 0.719), rgba(4, 26, 100, 0.73)), url(./New-img/office-925806__340.jpg);*/
+background-color: #2c2b2c;
+background-size: cover; 
 /*background-color:#1c142b;*/
 }
 
@@ -2426,7 +2430,7 @@ select.mobile-device {
 
 .copyrights {
     border-top: 1px dashed rgba(255, 255, 255, 0.1);
-    background-color:  #f2f2f2 ;/*#1f1f1f;    /*changes color of HerTechTrail ending surrounding background*/
+    background-color:  #F0F0F2;/*#1f1f1f;    /*changes color of HerTechTrail ending surrounding background*/
     box-sizing: border-box;
     width: 100%;
     text-align: center;
