@@ -544,11 +544,12 @@ xclip
 }
 
 .abtext{ /*styling for the texts in about page*/
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:  serif;
     font-weight: 500;
-    font-size:17px;
+    font-size:23px;
     
 }
+
 
 
 .section.lb {
@@ -2268,7 +2269,7 @@ select.mobile-device {
 }
 
 .contact_form .form-control {
-    background-color:#1B1212 ; /*#333333responsible for internal container/box that houses the text*/
+    background-color:#363535 ; /*#333333responsible 1B1212 for internal container/box that houses the text*/
     margin-bottom: 30px;
     border: 1px solid #ebebeb;
     box-sizing: border-box;
