@@ -1763,7 +1763,9 @@ hr.invis1 {
     .our-team{ margin-bottom: 30px; }
 }
 
-
+@media only screen and (max-width:990px){
+   .navbar-brand .myname{ font-family: 'Old Standard TT', serif;
+}
 
 /*------------------------------------------------------------------
     CONTACT
