@@ -556,8 +556,15 @@ xclip
     background-color: #f2f3f5;
 }
 
-.section.db {
-    background-color: #111111;
+.section.db {  /*controls contact page */
+    /* background-color: #111111; */
+    background:  linear-gradient(rgba(242,196,155, 0.719), rgba(4, 26, 100, 0.73)),
+    url(./New-img/white_rose_560933.webp) no-repeat;
+    background-size: cover;
+
+    background-color: #4d4c4c;
+    
+    
 }
 
 .section.color1 {
@@ -2144,11 +2151,21 @@ select.mobile-device {
 }
 
 
-#contact {   /*changes b-ground color of the contact me section*/
-    background: linear-gradient(rgba(4, 26, 100, 0.73), rgba(242,196,155, 0.719) ), url(./New-img/white_rose_560933.webp);
+#to-contact{
+    background:  linear-gradient(rgba(242,196,155, 0.719), rgba(4, 26, 100, 0.73)),
+    url(./New-img/office-925806__340.jpg) no-repeat;
+    background-size: cover;
+    background-color: #3d3c3c;
+}
 
-    background-size: cover;/*made the image cover the section*/
-    background-color: #4d4c4c;
+#contact {   /*changes b-ground color of the contact me section*/
+    
+    
+    /*background-color: #4d4c4c;
+    background-color: linear-gradient(rgba(4, 26, 100, 0.73), rgba(242,196,155, 0.719) ), url(./New-img/white_rose_560933.webp) no-repeat!important;
+
+    background-size: contain;/*made the image cover the section*/
+    
 }
 
 .contact_form textarea.form-control{
