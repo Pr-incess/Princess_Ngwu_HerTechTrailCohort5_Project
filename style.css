@@ -558,11 +558,9 @@ xclip
 
 .section.db {  /*controls contact page */
     /* background-color: #111111; */
-    background:  linear-gradient(rgba(242,196,155, 0.719), rgba(4, 26, 100, 0.73)),
-    url(./New-img/white_rose_560933.webp) no-repeat;
+   background: linear-gradient( rgba(4, 26, 100, 0.73), rgba(242,196,155, 0.719)), url(./New-img/white_rose_560933.webp) no-repeat;
     background-size: cover;
-
-    background-color: #4d4c4c;
+   /*background-color: #4d4c4c;*/
     
     
 }
@@ -2109,14 +2107,14 @@ select.mobile-device {
 }
 
 .contact_form { /*border around contact container*/
-    border: 1px solid #ededed;
-    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1);
-    background-color: #f2f3f5;
-    padding: 40px 30px;
+    border: 1px solid #ededed !important;
+    box-shadow: 0 5px 14px rgba(0, 0, 0, 0.1) !important;
+    background-color: #f2f3f5 !important;
+    padding: 40px 30px !important;
 }
 
 .contact_form .form-control {
-    background-color:#363535 ; /*#333333 1B1212 responsible  for internal container/box that houses the text*/
+    background-color:#363535 !important; /*#333333 1B1212 responsible  for internal container/box that houses the text*/
     margin-bottom: 30px;
     border: 1px solid #ebebeb;
     box-sizing: border-box;
@@ -2138,28 +2136,24 @@ select.mobile-device {
 }
 
 .contact_form .form-control::-webkit-input-placeholder {
-    color:#bcbcbc ;  /*color of placeholder text*/
+    color:#bcbcbc !important;  /*color of placeholder text*/
 }
 
 .contact_form .form-control::-moz-placeholder {
     opacity: 1;
-    color: #bcbcbc;
+    color: #bcbcbc!important;
 }
 
 .contact_form .form-control::-ms-input-placeholder {
-    color: #bcbcbc;
+    color: #bcbcbc !important; 
 }
 
 
-#to-contact{
-    background:  linear-gradient(rgba(242,196,155, 0.719), rgba(4, 26, 100, 0.73)),
-    url(./New-img/office-925806__340.jpg) no-repeat;
-    background-size: cover;
-    background-color: #3d3c3c;
+
 }
 
 #contact {   /*changes b-ground color of the contact me section*/
-    
+    background: url(images/1.jpg) no-repeat center center #ffffff !important;
     
     /*background-color: #4d4c4c;
     background-color: linear-gradient(rgba(4, 26, 100, 0.73), rgba(242,196,155, 0.719) ), url(./New-img/white_rose_560933.webp) no-repeat!important;
