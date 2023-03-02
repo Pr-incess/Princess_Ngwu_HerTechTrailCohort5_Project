@@ -489,7 +489,7 @@ xclip
 #mainNav.navbar-shrink {
     padding-top: 10px;
     padding-bottom: 10px;
-   background-color: rgba(29, 28, 27, 0.89) ; /*#3e3853 #55535c A68199 #393349 514f57 Also responsible for the transition change to white once you scroll down. Like a sort of back-up */
+   background-color: rgba(29, 28, 27, 0.719) ; /*#3e3853 #55535c A68199 #393349 514f57 Also responsible for the transition change to white once you scroll down. Like a sort of back-up */
 	-webkit-animation: fadeInDown 700ms;
 	animation: fadeInDown 700ms;
 	-webkit-backface-visibility: hidden;
@@ -2226,6 +2226,7 @@ select.mobile-device {
 .footer-links {
     list-style: none;
     padding: 0;
+    
 }
 
 .footer-links a {
@@ -2273,7 +2274,7 @@ select.mobile-device {
     background-color:  #F0F0F2;/*#1f1f1f;    /*changes color of HerTechTrail ending surrounding background*/
     box-sizing: border-box;
     width: 100%;
-    text-align: center;
+    text-align: center !important;
     padding: 30px 0px;
     overflow: hidden;
 }
